@@ -1,6 +1,6 @@
-# Credit_Risk_Analysis_EDA
+# Credit Risk Analysis Insights
 
-# Case Study - Banking Domain
+Welcome to the Credit Risk Analysis Insights project! This repository is dedicated to unraveling game-changing insights from a dataset associated with credit risk. Here's a glimpse into the transformative discoveries made in this project:
 ## Business/Domain Understanding
 
 Financial markets are fundamental institutions in any developing economy. They play a crucial role in promoting economic growth by facilitating the channeling of
@@ -60,3 +60,30 @@ for your presentation:
 2. Explore the data distribution of each column. Identify some important
 patterns.
 3. Insights and Recommendations.
+
+
+
+## Key Insights:
+
+🎯 **Age Insights:**
+ - The dataset revealed a wide age range, from 20 to 144. However, an outlier at 144 was carefully addressed with median imputation.
+ - Interestingly, I found that the probability of default payment is higher for individuals aged 20 to 28, gradually decreasing as age advances. This highlights the dynamic relationship between age and creditworthiness.
+
+💰 **Loan Amount Implications:**
+ - Loan amount proved to be a pivotal factor. Borrowers securing loans from financial institutions with higher amounts tend to have a higher default probability. Conversely, smaller loans had a less default effect found.
+ - As loan amounts exceed a specific threshold, the probability of default decreases. This finding speaks to the importance of loan amount determinations.
+
+💸 **Interest Rates and Borrower Behavior:**
+ - A high interest rate correlates with a higher probability of borrowers defaulting. This underlines the need for a more comprehensive risk assessment associated with interest rates.
+ - The density of loan defaulters is linked to higher interest rates as lenders respond to elevated risk.
+
+💡 **Loan Intent Matters:**
+ - Borrowers intending to use loans for Medical purposes exhibit high default rates. Many struggle to repay due to financial limitations.
+ - Debt Consolidation loans, designed to alleviate debt burdens, also reflect a higher default rate, indicating that borrowers face challenges in managing their obligations.
+
+🔍 **Recommendations for Lenders:**
+ - Lenders should evaluate creditworthiness holistically, considering factors like age, loan amount, and loan intent.
+ - Tailoring loan terms, interest rates, and financial counseling for borrowers in need can significantly reduce default rates and foster financial well-being.
+
+Feel free to explore the detailed insights provided in the project's documentation. For a more in-depth analysis and additional recommendations, refer to the associated notebooks and data files. If you have any questions or suggestions, please don't hesitate to reach out. Happy exploring!
+
